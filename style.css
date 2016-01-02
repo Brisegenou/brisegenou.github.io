@@ -1,0 +1,116 @@
+body {
+	background-image: url("sephirothfire.jpg");
+	background-attachment: scroll;
+	font-family: "samourai"
+}
+.hidetsugu {
+	 color: white;
+	 padding: 30px;
+}
+.mort {
+	color: white;
+}
+.salut {
+	 color: white;
+}
+.fdp{
+	color: red;
+}
+@font-face {
+	font-family: "samourai";
+	src: url('CHOWFUN_.TTF');
+}
+#hidetsugu p {
+    margin-top: 20px;
+	margin-left: 20px;
+    font-size: 30px;
+    text-align: center;
+
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+#mort p {
+    margin-top: 40px;
+	margin-left: 250px;
+    font-size: 30px;
+
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+         -o-animation: fadein 6s; /* Opera < 12.1 */
+            animation: fadein 6s;
+}
+#salut p {
+    margin-top: 60px;
+	margin-left: 170px;
+    font-size: 30px;
+
+    -webkit-animation: fadein 9s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 9s; /* Firefox < 16 */
+        -ms-animation: fadein 9s; /* Internet Explorer */
+         -o-animation: fadein 9s; /* Opera < 12.1 */
+            animation: fadein 9s;
+}
+#fdp p {
+	text-align: center;
+	font-size: 60px;
+	margin-top: 90px;
+    opacity:0;
+    -moz-animation: anim 3s linear forwards 5s;
+    -webkit-animation: anim 3s linear forwards 5s;
+    -o-animation: anim 3s linear forwards 5s;
+    -ms-animation: anim 3s linear forwards 5s;
+    animation: anim 3s linear forwards 5s;
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
