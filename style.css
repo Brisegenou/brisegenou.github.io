@@ -3,24 +3,12 @@ body {
 	background-attachment: scroll;
 	font-family: "samourai"
 }
-.hidetsugu {
-	 color: white;
-	 padding: 30px;
-}
-.mort {
-	color: white;
-}
-.salut {
-	 color: white;
-}
-.fdp{
-	color: red;
-}
 @font-face {
 	font-family: "samourai";
 	src: url('CHOWFUN_.TTF');
 }
 .anim-hidetsugu p {
+	color: white;
     margin-top: 20px;
 	margin-left: 20px;
     font-size: 30px;
@@ -33,6 +21,7 @@ body {
             animation: fadein 3s;
 }
 .anim-mort p {
+	color: white;
     margin-top: 40px;
 	margin-left: 250px;
     font-size: 30px;
@@ -44,6 +33,7 @@ body {
             animation: fadein 6s;
 }
 .anim-salut p {
+	color: white;
     margin-top: 60px;
 	margin-left: 170px;
     font-size: 30px;
@@ -55,6 +45,7 @@ body {
             animation: fadein 9s;
 }
 .anim-fdp p {
+	color: red;
 	text-align: center;
 	font-size: 60px;
 	margin-top: 90px;

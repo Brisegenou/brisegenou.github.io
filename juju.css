@@ -1,4 +1,41 @@
 body {
 	background-image: url("Julien Elisa.jpg");
 	background-attachment: scroll;
-	font-family: "samourai"
+	font-family: "future";
+}
+@font-face {
+	font-family: "future";
+	src: url('Star Trek Enterprise Future.ttf');
+}
+.anim-année p {
+	color: black;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 90px;
+    opacity:0;
+    -moz-animation: anim 3s linear forwards 5s;
+    -webkit-animation: anim 3s linear forwards 5s;
+    -o-animation: anim 3s linear forwards 5s;
+    -ms-animation: anim 3s linear forwards 5s;
+    animation: anim 3s linear forwards 5s;
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
