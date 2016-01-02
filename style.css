@@ -20,7 +20,7 @@ body {
 	font-family: "samourai";
 	src: url('CHOWFUN_.TTF');
 }
-#hidetsugu p {
+.anim-hidetsugu p {
     margin-top: 20px;
 	margin-left: 20px;
     font-size: 30px;
@@ -32,7 +32,7 @@ body {
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s;
 }
-#mort p {
+.anim-mort p {
     margin-top: 40px;
 	margin-left: 250px;
     font-size: 30px;
@@ -43,7 +43,7 @@ body {
          -o-animation: fadein 6s; /* Opera < 12.1 */
             animation: fadein 6s;
 }
-#salut p {
+.anim-salut p {
     margin-top: 60px;
 	margin-left: 170px;
     font-size: 30px;
@@ -54,7 +54,7 @@ body {
          -o-animation: fadein 9s; /* Opera < 12.1 */
             animation: fadein 9s;
 }
-#fdp p {
+.anim-fdp p {
 	text-align: center;
 	font-size: 60px;
 	margin-top: 90px;
