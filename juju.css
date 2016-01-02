@@ -2,6 +2,7 @@ body {
 	background-image: url("Julien Elisa.jpg");
 	background-attachment: scroll;
 	font-family: "future";
+	background-repeat no-repeat
 }
 @font-face {
 	font-family: "future";
