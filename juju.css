@@ -3,6 +3,8 @@ body {
 	background-attachment: scroll;
 	font-family: "future";
 	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
 }
 @font-face {
 	font-family: "future";
