@@ -6,11 +6,6 @@ body {
 	background-color: black;
 	background-position: top center;
 }
- a {
-    background-color: transparent;
-    color: inherit;
-    text-decoration: none;
-}
 @font-face {
 	font-family: "future";
 	src: url('Star Trek Enterprise Future.ttf');
