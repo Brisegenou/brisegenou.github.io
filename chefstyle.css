@@ -231,3 +231,20 @@ th {
 .block-10  {background: pink;}
 .block-11  {background: sandybrown;}
 .block-12  {background: salmon;}
+
+/* largeur minimale des blocks, simplement pour voir */
+.layout-colonne {min-width: 15em;}
+
+@media screen and (min-width:45em) { /* entete a 3 elements => tous les uns en dessous des autres (défaut), ou tous a cotés.*/
+	.page-entete .layout-colonne {width: 33%;}
+}
+@media screen and (min-width:30em) { /* corps a 5 elements => tous les uns en dessous des autres (défaut), ou 2 par deux, ou 5.*/
+	.page-corps .layout-colonne {width: 50%;}
+	.page-pied .layout-colonne {width: 50%;}
+}
+@media screen and (min-width:75em) {
+	.page-corps .layout-colonne {width: 20%;}
+}
+@media screen and (min-width:60em) { /* pied a 4 elements => tous les uns en dessous des autres (défaut), ou 2 par deux, ou 4.*/
+	.page-pied .layout-colonne {width: 25%;}
+}
