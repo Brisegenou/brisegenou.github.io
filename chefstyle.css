@@ -211,3 +211,23 @@ th {
     box-sizing: border-box;
     }
 }
+
+/* CODES COULEURS JUSTE POUR VOIR */
+.page-entete {border: 1px solid darkblue;}
+.page-corps {border: 1px solid darkgreen;}
+.page-pied {border: 1px solid darkred;}
+
+.block-1 {background: lightblue;}
+.block-2  {background: lightskyblue;}
+.block-3  {background: lightsteelblue;}
+
+.block-4 {background: lemonchiffon;}
+.block-5  {background: palegreen;}
+.block-6  {background: palegoldenrod;}
+.block-7  {background: lightgreen;}
+.block-8  {background: ivory;}
+
+.block-9 {background: lightcoral;}
+.block-10  {background: pink;}
+.block-11  {background: sandybrown;}
+.block-12  {background: salmon;}
