@@ -1,7 +1,7 @@
 /* --------------- DEBUT RESET ------------ */
 
 html {
-    font-family: sans-serif; /* Set default font family to sans-serif. (normalize.css) */
+    font-family: verdana; /* Set default font family to verdana. (normalize.css) */
     -ms-text-size-adjust: 100%; /* Prevent iOS text size adjust after orientation change, without disabling user zoom. (normalize.css) */
         -webkit-text-size-adjust: 100%;
     box-sizing: border-box; /* (bootstrap scaffholding) modifié */
@@ -213,11 +213,11 @@ th {
 }
 
 /* CODES COULEURS JUSTE POUR VOIR */
-.page-entete {border: 1px solid darkblue;}
+.page-entete {border: 30px solid darkblue;}
 .page-corps {border: 1px solid darkgreen;}
 .page-pied {border: 1px solid darkred;}
 
-.block-1 {background: lightblue;}
+.block-1 {background: #CCCCCC;}
 .block-2  {background: lightskyblue;}
 .block-3  {background: lightsteelblue;}
 
@@ -236,7 +236,7 @@ th {
 .layout-colonne {min-width: 15em; min-height: 10em; vertical-align: top;}
 
 @media screen and (min-width:45em) { /* entete a 3 elements => tous les uns en dessous des autres (défaut), ou tous a cotés.*/
-	.page-entete .layout-colonne {width: 33.3333%;}
+	.page-entete .layout-colonne {width: 100%;}
 }
 @media screen and (min-width:30em) { /* corps a 5 elements => tous les uns en dessous des autres (défaut), ou 2 par deux, ou 5.*/
 	.page-corps .layout-colonne {width: 50%;}
