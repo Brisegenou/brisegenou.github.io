@@ -233,7 +233,7 @@ th {
 .block-12  {background: salmon;}
 
 /* largeur minimale des blocks, simplement pour voir */
-.layout-colonne {min-width: 15em;}
+.layout-colonne {min-width: 15em; min-height: 10em; vertical-align: top;}
 
 @media screen and (min-width:45em) { /* entete a 3 elements => tous les uns en dessous des autres (défaut), ou tous a cotés.*/
 	.page-entete .layout-colonne {width: 33.3333%;}
